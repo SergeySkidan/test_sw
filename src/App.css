@@ -14,21 +14,28 @@ background-image: url(images/bg-body.png);
       grid-column-gap: 20px;
       /*Отступ между рядами*/
       grid-row-gap: 15px;
-      grid-template-rows: auto;
+      grid-template-rows: repeat(50, 100px);
     }
 
     .header {
-      justify-content: space-evenly;
-      grid-row: 1/4;
+      grid-column-start: 2;
+      grid-column-end: 14;
+      grid-row-start: 1;
+      grid-row-end: 2;
     }
+
     .main{
-      grid-row: 2/4;
+      grid-column-start: 1;
+      grid-column-end: 12;
+      grid-row-start: 2;
+      grid-row-end: 7;
     }
 
     .footer {
-      grid-column: 15/20;
-      grid-row: 3/4;
-      background-color: aquamarine;
+      grid-column-start: 1;
+      grid-column-end: 16;
+      grid-row-start: 38;
+      grid-row-end: 43;
     }
 
   }

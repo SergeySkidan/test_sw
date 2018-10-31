@@ -1,8 +1,10 @@
 import React, { Component } from 'react';
 import banner from './images/banner.png';
-import Logo from './images/Logo.png';
-import menu from './images/menu.png';
-import to_order from './images/to_order.png';
+import Header from './images/Header.png';
+
+import Question from './images/Question.png';
+import About_marketing from './images/About_marketing.png';
+import Footer from './images/Footer.png';
 
 
 import './App.css';
@@ -13,22 +15,22 @@ class App extends Component {
       <div className="App">
 
                 <header className="header">
-                       <img src={menu} className="line_block" alt="menu" />
-                       <img src={Logo} className="line_block" alt="Logo" />
-                       <img src={to_order} className="line_block" alt="to_order" />
+
+                        <img src={Header} className="Header" alt="Header" />
+
                 </header>
 
+             <main className="main">
 
-             <main>
+                     <img src={banner} className="banner" alt="banner" />
+                     <img src={Question} className="question" alt="question" />
+                     <img src={About_marketing} className="About_marketing" alt="About_marketing" />
 
-                 <img src={banner} className="banner" alt="banner" />
 
             </main>
 
-            <footer>
-                <div>
-                    dfsfsdfd
-                </div>
+            <footer className="footer">
+                <img src={Footer} className="Footer" alt="Footer" />
 
             </footer>
 
