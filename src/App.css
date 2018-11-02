@@ -5,11 +5,11 @@ background-image: url(images/bg-body.png);
 }
 
 
-@media screen and (min-width: 1600px) {
+@media screen and (min-width: 800px) {
   @supports (display: grid) {
     .App {
       display: grid;
-      grid-template-columns: 150px  repeat(12, 90px)150px;
+      grid-template-columns: 130px  repeat(12, 90px)130px;
       /*Отступ между коллонами*/
       grid-column-gap: 20px;
       /*Отступ между рядами*/
@@ -30,12 +30,19 @@ background-image: url(images/bg-body.png);
       grid-row-start: 2;
       grid-row-end: 7;
     }
+    .Portfolio{
+        grid-column-start: 2;
+        grid-column-end: 14;
+        grid-row-start: 27;
+        grid-row-end: 35;
+    }
+
 
     .footer {
       grid-column-start: 1;
       grid-column-end: 16;
-      grid-row-start: 38;
-      grid-row-end: 43;
+      grid-row-start: 35;
+      grid-row-end: 40;
     }
 
   }
