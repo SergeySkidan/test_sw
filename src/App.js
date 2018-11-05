@@ -7,6 +7,8 @@ import services from './images/services.png';
 import Portfolio from './images/Portfolio.png';
 import Contact from './images/Contact.png';
 import Footer from './images/Footer.png';
+import ReactAnimation from './components/ReactAnimations'
+import ImageCarousel from './components/ImageCarousel'
 
 
 import './App.css';
@@ -17,9 +19,7 @@ class App extends Component {
       <div className="App">
 
                 <header className="header">
-
                         <img src={Header} className="Header" alt="Header" />
-
                 </header>
 
              <main className="main">
@@ -30,14 +30,21 @@ class App extends Component {
 
                      <img src={Contact} className="Contact" alt="Contact" />
             </main>
+
           <img src={Portfolio} className="Portfolio" alt="Portfolio" />
-          <div className={"item-a"}>ff</div>
+
+
             <footer className="footer">
                 <img src={Footer} className="Footer" alt="Footer" />
 
             </footer>
 
-
+<div className={'animation'}>
+    <ReactAnimation/>
+</div>
+          <div className={'image_carousel'}>
+              <ImageCarousel/>
+          </div>
 
 
       </div>

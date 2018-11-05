@@ -44,10 +44,21 @@ background-image: url(images/bg-body.png);
       grid-row-start: 35;
       grid-row-end: 40;
     }
+    .animation{
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 41;
+        grid-row-end: 44;
+    }
+    .image_carousel{
+        grid-column-start: 1;
+        grid-column-end: 16;
+        grid-row-start: 46;
+        grid-row-end: 49;
+    }
 
   }
 }
-
 
 
 
