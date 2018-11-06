@@ -23,20 +23,37 @@ background-image: url(images/bg-body.png);
       grid-row-start: 1;
       grid-row-end: 2;
     }
+      .banner {
+          grid-column-start: 1;
+          grid-column-end: 14;
+          grid-row-start: 2;
+          grid-row-end: 5;
+      }
 
-    .main{
-      grid-column-start: 1;
-      grid-column-end: 12;
-      grid-row-start: 2;
-      grid-row-end: 7;
+    .question{
+      grid-column-start: 3;
+      grid-column-end: 14;
+      grid-row-start: 7;
+      grid-row-end: 16;
     }
-    .Portfolio{
-        grid-column-start: 2;
+    .services{
+        grid-column-start: 3;
         grid-column-end: 14;
-        grid-row-start: 27;
-        grid-row-end: 35;
+        grid-row-start: 15;
+        grid-row-end: 22;
     }
-
+    .portfolio{
+        grid-column-start: 2;
+        grid-column-end: 13;
+        grid-row-start: 23;
+        grid-row-end: 31;
+    }
+    .contact{
+        grid-column-start: 2;
+        grid-column-end: 5;
+        grid-row-start: 31;
+        grid-row-end: 36;
+    }
 
     .footer {
       grid-column-start: 1;
@@ -44,6 +61,8 @@ background-image: url(images/bg-body.png);
       grid-row-start: 35;
       grid-row-end: 40;
     }
+
+
     .animation{
         grid-column-start: 1;
         grid-column-end: 3;

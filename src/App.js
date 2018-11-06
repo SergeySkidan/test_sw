@@ -18,33 +18,23 @@ class App extends Component {
     return (
       <div className="App">
 
-                <header className="header">
-                        <img src={Header} className="Header" alt="Header" />
-                </header>
-
-             <main className="main">
-
-                     <img src={banner} className="banner" alt="banner" />
-                     <img src={Question} className="question" alt="question" />
-                     <img src={services} className="services" alt="services" />
-
-                     <img src={Contact} className="Contact" alt="Contact" />
-            </main>
-
-          <img src={Portfolio} className="Portfolio" alt="Portfolio" />
+      <img src={Header} className="header" alt="Header" />
+      <img src={banner} className="banner" alt="banner" />
+      <img src={Question} className="question" alt="question" />
+      <img src={services} className="services" alt="services" />
+      <img src={Portfolio} className="portfolio" alt="Portfolio" />
+      <img src={Contact} className="contact" alt="Contact" />
+      <img src={Footer} className="footer" alt="Footer" />
 
 
-            <footer className="footer">
-                <img src={Footer} className="Footer" alt="Footer" />
-
-            </footer>
 
 <div className={'animation'}>
     <ReactAnimation/>
 </div>
-          <div className={'image_carousel'}>
-              <ImageCarousel/>
-          </div>
+
+<div className={'image_carousel'}>
+    <ImageCarousel/>
+</div>
 
 
       </div>
