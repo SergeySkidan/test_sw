@@ -11,7 +11,7 @@ import ReactAnimation from './components/ReactAnimations'
 import ImageCarousel from './components/ImageCarousel'
 import background from './images/background.png'
 import TablMendeleev from './components/TablMendeleev'
-import ReactTestComponent from './components/ReactTestComponent'
+import ReactTestComponent from './components/ReactTestComponent';
 
 
 import './App.css';
@@ -57,10 +57,10 @@ class App extends Component {
 </div>
 
  <div className={'react_test_component'}>
-     <ReactTestComponent/>
+
  </div>
 
-
+<ReactTestComponent/>
       </div>
     );
   }
