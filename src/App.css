@@ -10,7 +10,7 @@
       grid-column-gap: 20px;
       /*Отступ между рядами*/
       grid-row-gap: 15px;
-      grid-template-rows: repeat(50, 100px);
+      grid-template-rows: repeat(100, 100px);
     }
 
     .header {
@@ -57,36 +57,33 @@
       grid-row-start: 35;
       grid-row-end: 40;
     }
+    .test{
+        display: grid;
+        width: auto;
+        height: auto;
+        grid-column: 5/17;
+        grid-row: 41/50;
+    }
 
     .animation{
         grid-column-start: 2;
         grid-column-end: 16;
-        grid-row-start: 56;
-        grid-row-end: 58;
+        grid-row-start: 51;
+        grid-row-end: 56;
     }
     .image_carousel{
         grid-column-start: 2;
         grid-column-end: 16;
-        grid-row-start: 59;
-        grid-row-end: 65;
+        grid-row-start: 56;
+        grid-row-end: 59;
     }
 
-
-
-.test{
-display: grid;
-    width: auto;
-    height: auto;
-    grid-column: 5/17;
-    grid-row: 41/50;
-
-}
-
-.react_test_component{
-    grid-column-start: 2;
+.react-test-component{
+    grid-column-start: 3;
     grid-column-end: 16;
-    grid-row-start: 65;
-    grid-row-end: 70;
+    grid-row-start: 59;
+    grid-row-end: 75;
+    justify-self: start;
 }
 
 

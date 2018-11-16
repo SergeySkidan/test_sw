@@ -56,11 +56,11 @@ class App extends Component {
     <ImageCarousel/>
 </div>
 
- <div className={'react_test_component'}>
 
- </div>
+     <ReactTestComponent/>
 
-<ReactTestComponent/>
+
+
       </div>
     );
   }
