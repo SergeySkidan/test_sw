@@ -74,8 +74,7 @@ export default class ReactTestComponent extends React.Component{
             <div className={"react-test-component"}>
 
                 <h1>DDDDDDDDDDDDDDDDDDDDDDD</h1>
-                <Menu recipes={data}
-                      title="Delicious Recipes" />
+                <Menu recipes={data} title="Delicious Recipes" />
 
             </div>
         )
