@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
-import small_ball from '../images/small_ball.png'
+import small_ball from '../../images/small_ball.png'
 
 
 export  default class ImageCarousel extends React.Component {

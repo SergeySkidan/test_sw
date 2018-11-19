@@ -8,13 +8,14 @@ import Portfolio from './images/Portfolio.png';
 import Contact from './images/Contact.png';
 import Footer from './images/Footer.png';
 import ReactAnimation from './components/ReactAnimations'
-import ImageCarousel from './components/ImageCarousel'
+import ImageCarousel from './components/RecipeTest/ImageCarousel'
 import background from './images/background.png'
 import TablMendeleev from './components/TablMendeleev'
-import ReactTestComponent from './components/ReactTestComponent';
 
 
 import './App.css';
+import Menu from "./components/RecipeTest/Menu";
+import dataRecipe from "./components/RecipeTest/DataRecipe";
 
 class App extends Component {
   render() {
@@ -56,8 +57,11 @@ class App extends Component {
     <ImageCarousel/>
 </div>
 
+<div className={"react-test-component"}>
+     <Menu recipes={dataRecipe} title="Delicious Recipes" />
+</div>
 
-     <ReactTestComponent/>
+
 
 
 
