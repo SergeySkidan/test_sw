@@ -7,15 +7,16 @@ import services from './images/services.png';
 import Portfolio from './images/Portfolio.png';
 import Contact from './images/Contact.png';
 import Footer from './images/Footer.png';
-import ReactAnimation from './components/ReactAnimations'
+import ReactAnimation from './components/ReactAnimation/ReactAnimations'
 import ImageCarousel from './components/RecipeTest/ImageCarousel'
 import background from './images/background.png'
-import TablMendeleev from './components/TablMendeleev'
+import TablMendeleev from './components/TablMendeleev/TablMendeleev'
 
 
 import './App.css';
 import Menu from "./components/RecipeTest/Menu";
 import dataRecipe from "./components/RecipeTest/DataRecipe";
+import Timer from './components/Timer';
 
 class App extends Component {
   render() {
@@ -62,7 +63,9 @@ class App extends Component {
 </div>
 
 
-
+<div className={'timer'}>
+    <Timer/>
+</div>
 
 
       </div>

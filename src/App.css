@@ -82,11 +82,17 @@
     grid-column-start: 3;
     grid-column-end: 16;
     grid-row-start: 59;
-    grid-row-end: 75;
+    grid-row-end: 69;
     justify-self: start;
 }
 
+.timer{
+    grid-column-start: 3;
+    grid-column-end: 16;
+    grid-row-start: 70;
+    grid-row-end: 72;
 
+}
 
 
 

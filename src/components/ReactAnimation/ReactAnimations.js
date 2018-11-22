@@ -3,7 +3,7 @@ import {render} from 'react-dom';
 
 import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
 import './ReactAnimations.css';
-import small_ball from "../images/small_ball.png";
+import small_ball from "../../images/small_ball.png";
 
 
 const style = {
