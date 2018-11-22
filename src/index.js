@@ -9,6 +9,9 @@ import {Provider} from 'react-redux';
 
 import reducer from './Reducers/reducer';
 
+//Чтобы связать приложение React или React Native с Redux, вы делаете это с помощью react-redux модуля.
+// Это делается с использованием высокоупорядоченного компонента Provider.
+// Он в основном передает хранилище до остальной части приложения.
 
 const store = createStore(reducer);
 
