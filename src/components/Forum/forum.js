@@ -19,8 +19,8 @@ export default class Forum extends React.Component{
                 <div  className={'f2'}>
                     <ul>
                         <li>FF</li>
-                        <li>FF</li>
-                        <li>FF</li>
+                        <li>Ferggxd rf ghf F</li>
+                        <li>FFsdfsd</li>
                         <li>vv</li>
                         <li>vVD</li>
                         <li>DSF</li>
@@ -33,7 +33,7 @@ export default class Forum extends React.Component{
                         <li>FF</li>
                         <li>FF</li>
                         <li>vv</li>
-                        <li>vVD</li>
+                        <li>vVwerD</li>
                         <li>DSF</li>
                     </ul>
                 </div>

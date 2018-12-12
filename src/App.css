@@ -82,23 +82,26 @@
     grid-column-start: 3;
     grid-column-end: 16;
     grid-row-start: 59;
-    grid-row-end: 69;
-    justify-self: start;
+    grid-row-end: 72;
+    justify-self: stretch;
+}
+.react-test-component li{
+    list-style-type: none;
 }
 
 .timer{
     grid-column-start: 3;
     grid-column-end: 16;
-    grid-row-start: 70;
-    grid-row-end: 72;
+    grid-row-start: 72;
+    grid-row-end: 75;
 }
 
 
     .forum {
         grid-column-start: 3;
         grid-column-end: 16;
-        grid-row-start: 73;
-        grid-row-end: 75;
+        grid-row-start: 75;
+        grid-row-end: 79;
         display: grid;
         grid-template-rows: 400px;
 
@@ -126,6 +129,9 @@
         align-self: center;
         background-color: aquamarine;
     }
+    .f2 li{
+        list-style-type: none;
+    }
     .f3{
         grid-column-start: 10;
         grid-column-end: 15;
@@ -133,8 +139,11 @@
         grid-row-end: 1;
         justify-self: end;
         align-self: end;
-background-color: bisque;
+        background-color: bisque;
 
+    }
+    .f3 li{
+        list-style-type: none;
     }
 
 
