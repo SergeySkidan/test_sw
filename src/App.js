@@ -17,6 +17,7 @@ import './App.css';
 import Menu from "./components/RecipeTest/Menu";
 import dataRecipe from "./components/RecipeTest/DataRecipe";
 import Timer from './components/Timer';
+import Forum from "./components/Forum/forum";
 
 class App extends Component {
   render() {
@@ -66,6 +67,9 @@ class App extends Component {
 <div className={'timer'}>
     <Timer/>
 </div>
+
+
+<Forum/>
 
 
       </div>
